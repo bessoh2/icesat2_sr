@@ -8,7 +8,7 @@
 # methow_basin_2018_dtm_38.tif
 
 # Navigate to a folder containing only these downloaded .tif files
-cd Documents/Documents_Grad/Research/IDS_statewide/datasetsA/methow_basin_2018/dtm/raw
+cd Documents/Documents_Grad/Research/IDS_statewide/data/lidar/methow/dtm/
 fn_list=$(ls *.tif)
 
 # Activate environment containing gdal tools
