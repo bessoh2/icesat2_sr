@@ -1,3 +1,5 @@
+# Written by Friedrich Knuth: https://github.com/uw-cryo/raster_sampling/blob/master/friedrich/core.py
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
