@@ -3,7 +3,7 @@ Investigating ICESat-2 SlideRule products for snow depth measurements in the Wes
 
 This repository contains code, data, and figures used for Besso, Shean, and Lundquist 2023. We calculate snow depth by differencing ICESat-2 ATL06 processed with Sliderule Earth from airborne lidar at two study sites. We calculate error metrics by comparing the ICESat-2 snow depths to various other snow depth measurements, such as SNOTEL and CDEC site data and Airborne Snow Observatory, Inc airborne snow on lidar flights.  
 
-![alt text](/tuolumne_basin/figures/Fig1.jpeg)
+![alt text](tuolumne_basin/figures/Fig1.jpg)
 
 Notebooks and Descriptions (folder: notebooks):
 * **Data_Acess_SR-ATL06.ipynb**   Written by Tyler Sutterly for ICESat-2 Hackweek 2022 hosted by UW's e-science institute. Use widgets to request and download ICESat-2 data using SlideRule. See below for selected parameters in the widget drop down menus. Prior to running this notebook, I created a polygon of the outline of the DEM to pass into SlideRule for my ICESat-2 data download. This notebook then saves the ICESat-2 geodataframe to a geojson for later use.
