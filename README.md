@@ -1,7 +1,9 @@
-# SlideRule_methow
+# Mountain snow depth retrievals from customized processing of ICESat-2 satellite laser altimetry
 Investigating ICESat-2 SlideRule products for snow depth measurements in the Western U.S.
 
-I compare ICESat-2 sliderule ATL06 (with atl08 ground classification) elevation point data to an airborne lidar DEM commissioned by the Washington DNR in 2018. This lidar data was accessed through the WA DNR lidar data portal. It was transformed from the NAVD88 geoid to the WGS84 ellipsoid using the script download_dems/methow_32610.sh with help from Eli Schwatt. In the future I would like to coregister them using either command line asp (Ames Stereo Pipeline) tools such as pc_align or the wrapper around this function created by David Shean (dem_coreg https://github.com/dshean/demcoreg).
+This repository contains code, data, and figures used for Besso, Shean, and Lundquist 2023. We calculate snow depth by differencing ICESat-2 ATL06 processed with Sliderule Earth from airborne lidar at two study sites. We calculate error metrics by comparing the ICESat-2 snow depths to various other snow depth measurements, such as SNOTEL and CDEC site data and Airborne Snow Observatory, Inc airborne snow on lidar flights.  
+
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/bessoh2/icesat2_sr/blob/main/tuolumne_basin/figures/Fig1.jpg))
 
 Notebooks and Descriptions (folder: notebooks):
 * **Data_Acess_SR-ATL06.ipynb**   Written by Tyler Sutterly for ICESat-2 Hackweek 2022 hosted by UW's e-science institute. Use widgets to request and download ICESat-2 data using SlideRule. See below for selected parameters in the widget drop down menus. Prior to running this notebook, I created a polygon of the outline of the DEM to pass into SlideRule for my ICESat-2 data download. This notebook then saves the ICESat-2 geodataframe to a geojson for later use.
