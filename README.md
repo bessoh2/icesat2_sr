@@ -1,5 +1,6 @@
 # Mountain snow depth retrievals from customized processing of ICESat-2 satellite laser altimetry
 Investigating ICESat-2 SlideRule products for snow depth measurements in the Western U.S.  
+  
 **Besso, H., Shean, D., Lundquist, J., 2023. Mountain snow depth retrievals from customized processing of ICESat-2 satellite laser altimetry. Remote Sensing of Evironment, in review.**
 
 This repository contains code, data, and figures used for Besso, Shean, and Lundquist 2023. We calculate snow depth by differencing ICESat-2 ATL06 processed with Sliderule Earth from airborne lidar at two study sites. We calculate error metrics by comparing the ICESat-2 snow depths to various other snow depth measurements, such as SNOTEL and CDEC site data and Airborne Snow Observatory, Inc airborne snow on lidar flights.  
