@@ -1,5 +1,5 @@
 # Mountain snow depth retrievals from customized processing of ICESat-2 satellite laser altimetry  
-[![DOI](https://zenodo.org/badge/502175042.svg)](https://zenodo.org/doi/10.5281/zenodo.10048877  
+[![DOI](https://zenodo.org/badge/502175042.svg)](https://zenodo.org/doi/10.5281/zenodo.10048877)  
 **Besso, H., Shean, D., Lundquist, J., 2023. Mountain snow depth retrievals from customized processing of ICESat-2 satellite laser altimetry. Remote Sensing of Evironment, in review.**
 
 Investigating ICESat-2 SlideRule products for snow depth measurements in the Western U.S.  
